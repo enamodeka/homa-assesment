@@ -1,7 +1,8 @@
 # Task WordFinder
 1. Initialize the project running `npm install`
 2. To build run command `npm run build`
-3. To use run command `node . <word>` OR `npm run start <word>` to get the result
+3. To use run command `node . <word>` OR `npm run start <word>` to get the result.
+   Ie. to test as per assessment example `npm run start optonoceari`
 
 # Task SQL
 ## A
@@ -62,3 +63,11 @@ LEFT JOIN GOALS G ON P.player_id = G.player_id
 WHERE G.player_id IS NULL
 GROUP BY P.team;
 ```
+
+# Notes
+- using `substr` instead of `slice`. Possibly mention it? `substr` takes length as the second argument. In my mind it stuck as intuitive.
+
+### Things that I did not follow:
+- the naming of the L list and s input string
+- did not check for the maximum input of 12 characters
+- did not check whether the characters belong to the subset of latin alphabet
