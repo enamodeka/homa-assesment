@@ -1,0 +1,19 @@
+{
+  "name": "homa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.6"
+  },
+  "dependencies": {
+    "typescript": "^5.3.3"
+  }
+}
